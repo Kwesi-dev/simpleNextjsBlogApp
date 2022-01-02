@@ -1,0 +1,15 @@
+.singleBlog{
+    width: 100vw;
+    height: 100vh;
+}
+.blogBody{
+    width: 60%;
+    height: 400px;
+    margin: 30px 50px;
+    -webkit-box-shadow: 3px 5px 15px -3px #000000; 
+    box-shadow: 3px 5px 15px -3px #000000;
+    padding: 20px;
+}
+.blogBody h1{
+    margin-bottom: 20px;   
+}

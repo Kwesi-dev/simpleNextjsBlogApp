@@ -1,0 +1,30 @@
+.navbar{
+    width: 100vw;
+    height: 70px;
+    border-bottom: 1px solid lightgray;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+}
+.wrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navLinks{
+    display: flex;
+    align-items: center;
+}
+.navLinks li{
+    margin-right: 20px;
+    list-style-type: none;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 400;
+}
+.navLinks li:hover{
+    text-decoration: underline;
+}
